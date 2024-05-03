@@ -30,7 +30,7 @@ var_dump($pcSelection);
 $guess = strtolower(readline("Enter rock, paper, scissors, lizard or spock: "));
 
 if (!array_key_exists($guess, $items)) {
-    echo 'Enter a valid word';
+    echo 'Enter a valid word'.PHP_EOL;
     exit;
 }
 
